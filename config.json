@@ -1,0 +1,21 @@
+{
+  "port": 8001,
+  "appName": "ticketing-konser",
+  "appEnv": "local",
+  "signatureKey": "B2n14t20a1n14g754321",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "ticketing_db",
+    "username": "root",
+    "password": "root",
+    "maxOpenConnection": 20,
+    "maxLifetimeConnection": 600,
+    "maxIdleConnection": 10,
+    "maxIdleTime": 600
+  },
+  "rateLimiterMaxRequest": 1000,
+  "rateLimiterTimeSecond": 60,
+  "jwtSecretKey": "M1o2k3o4D5o6m7p8i9t0",
+  "jwtExpirationTime": 1440
+}
